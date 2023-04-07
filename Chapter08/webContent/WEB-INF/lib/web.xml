@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+		<param-name>menu_member</param-name>
+		<param_value>회원등록  회원조회 회원수정</param_value>
+	</context-param>
+	<context_param>
+		<param-name>menu_order</param-name>
+		<param_value>상품조회  상품등록 상품수정 상품삭제</param_value>
+	</context_param>
+
+</web-app>
