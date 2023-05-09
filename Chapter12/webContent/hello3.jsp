@@ -3,7 +3,7 @@
     
 <!-- 선언문 작성 -->    
    <%!
-  		String name = "듀크";
+  		String name = "사용자";
    		public String getName(){
    			return name;
    			}
@@ -26,7 +26,7 @@
 				<!-- 표현식 -->
 	<h1>안녕하세요. <%=name %> 님!</h1>
 	<h1>나이는 <%=age %> 살 입니다.</h1>
-	<h1>키는 <%= 170 %>cm입니다.</h1>
+	<h1>키는 <%= 170%>cm입니다.</h1>
 	<h1>나이 +10은 <%-- <%=Integer.parseInt(age)+10 --%>살 입니다.</h1>
 </body>
 </html>
